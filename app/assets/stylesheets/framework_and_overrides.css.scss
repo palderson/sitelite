@@ -1,6 +1,10 @@
 // import the CSS framework
 @import "bootstrap";
 
+body {
+    background-color: #777;
+}
+
 // make all images responsive by default
 img {
   @extend .img-responsive;
@@ -37,9 +41,12 @@ main {
   background-color: #eee;
   padding-bottom: 80px;
   width: 100%;
-  margin-top: 51px; // accommodate the navbar
+  margin-top: 0px; // accommodate the navbar
   }
 section {
   @extend .row;
   margin-top: 20px;
+  }
+.stripe {
+  background-color: #fff;
   }
