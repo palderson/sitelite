@@ -13,6 +13,7 @@ gem 'bootstrap-sass'
 gem 'high_voltage'
 gem 'thin'
 gem 'pg'
+gem 'rails_12factor'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
